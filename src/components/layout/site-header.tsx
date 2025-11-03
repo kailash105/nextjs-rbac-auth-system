@@ -30,6 +30,9 @@ export async function SiteHeader() {
               <Link href={dashboardPath}>
                 <Button size="sm">Dashboard</Button>
               </Link>
+              <Link href="/profile">
+                <Button variant="ghost" size="sm">Profile</Button>
+              </Link>
               <LogoutButton />
             </>
           ) : (
